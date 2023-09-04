@@ -8,7 +8,7 @@ export const Unique = () => {
           <span className="font-black shadow-purple-400">businesses and non-profits</span>
         </div>
         <div className="w-10/12 font-semibold text-lg">
-          Many lack the resources to build high-quality custom tech solutions to meet their needs. That’s where you come in. At Code for a Cause, you’ll be creating solutions that help those that need it most. 
+          Many lack the resources to build high-quality custom tech solutions to meet their needs. That&apos;s where you come in. At Code for a Cause, you&apos;ll be creating solutions that help those that need it most. 
         </div>
       </div>
       <div className="p-2 w-5/12 ml-auto mr-auto text-center justify-contents-center font-bold text-lg">
@@ -18,7 +18,7 @@ export const Unique = () => {
           <div className="">help the local Goodwill automate pickups</div>
         </div>
         <div className="text-[10px] font-normal">
-          Note: this is just an example! we’ll have 10-15 different tracks like this to choose from!
+          Note: this is just an example! we&apos;ll have 10-15 different tracks like this to choose from!
         </div>
       </div>
       
