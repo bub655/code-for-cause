@@ -10,7 +10,7 @@ export const Hero = ()=> {
       </div>
       <div className="w-96 mt-6 ml-auto mr-auto bg-[#D9D9D9] rounded-full p-2 flex items-center justify-between space-x-8">
         <span className="text-black pl-3 text-2xl font-bold">Your Email</span>
-        <button className="bg-[#896FBC] hover:bg-[#7953C5] font-semibold text-white px-4 py-2 rounded-full text-2xl">I'm interested! </button>
+        <button className="bg-[#896FBC] hover:bg-[#7953C5] font-semibold text-white px-4 py-2 rounded-full text-2xl">I&apos;m interested! </button>
       </div>
       <div className="w-5/12 ml-auto mr-auto pt-2 text-sm font-semibold pb-12">
         Note: This isnt official registration. Its just an interest form so that we can send you more details as it comes in!
