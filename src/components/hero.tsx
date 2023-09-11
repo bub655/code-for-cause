@@ -1,4 +1,6 @@
-export const Hero = ()=> {
+'use client';
+
+export const Hero = () => {
   return (<>
     <div className="pt-20 text-center">
       <div className="pb-4">
@@ -8,24 +10,18 @@ export const Hero = ()=> {
       <div className="font-bold text-purple-100 text-3xl pb-4">
         The first social good hackathon for middle- and high-schoolers.
       </div>
-      <div className="w-96 mt-6 ml-auto mr-auto bg-[#D9D9D9] rounded-full p-2 flex items-center justify-between space-x-8">
-        <span className="text-black pl-3 text-2xl font-bold">Your Email</span>
-        <button className="bg-[#896FBC] hover:bg-[#7953C5] font-semibold text-white px-4 py-2 rounded-full text-2xl">I&apos;m interested! </button>
+      <div className="p-2 mb-16 w-fit mt-6 ml-auto mr-auto bg-[#D9D9D9] rounded-full ">
+        <form onSubmit={() => { }} className="flex items-center justify-between space-x-8" >
+          <input type="email" placeholder="Your Email" className="ml-4 w-68 bg-transparent text-black pl-3 text-2xl font-bold border-b-[4px] border-[#7953C5]" />
+          <button type="submit" className="bg-[#896FBC] hover:bg-[#7953C5] font-semibold text-white px-4 py-2 rounded-full text-2xl">I&apos;m interested! </button>
+        </form>
       </div>
-      <div className="w-5/12 ml-auto mr-auto pt-2 text-sm font-semibold pb-12">
-        Note: This isnt official registration. Its just an interest form so that we can send you more details as it comes in!
-      </div>
-      <div className="w-fit ml-auto mr-auto bg-[#D9D9D9] rounded-[16px] p-6">
-        <div className="text-black font-bold space-x-4 text-xl pb-2">
-          <span>Location TBD</span>
+      <div className="w-fit ml-auto mr-auto bg-[#D9D9D9] rounded-full p-6">
+        <div className="text-black font-bold space-x-4 text-xl ml-2 mr-2">
+          <span>691 S Milpitas Blvd.</span>
           <span className="text-2xl">|</span>
-          <span>Date TBD</span>
+          <span>December 9, 2023</span>
         </div>
-        <a href="https://discord.gg/BBBNXC3V" target="_blank" className="m-3 w-52 ml-auto mr-auto bg-[#5865F2] rounded-full p-2 flex items-center justify-center" >
-          <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" fill={"white"}><path d="M19.54 0c1.356 0 2.46 1.104 2.46 2.472v21.528l-2.58-2.28-1.452-1.344-1.536-1.428.636 2.22h-13.608c-1.356 0-2.46-1.104-2.46-2.472v-16.224c0-1.368 1.104-2.472 2.46-2.472h16.08zm-4.632 15.672c2.652-.084 3.672-1.824 3.672-1.824 0-3.864-1.728-6.996-1.728-6.996-1.728-1.296-3.372-1.26-3.372-1.26l-.168.192c2.04.624 2.988 1.524 2.988 1.524-1.248-.684-2.472-1.02-3.612-1.152-.864-.096-1.692-.072-2.424.024l-.204.024c-.42.036-1.44.192-2.724.756-.444.204-.708.348-.708.348s.996-.948 3.156-1.572l-.12-.144s-1.644-.036-3.372 1.26c0 0-1.728 3.132-1.728 6.996 0 0 1.008 1.74 3.66 1.824 0 0 .444-.54.804-.996-1.524-.456-2.1-1.416-2.1-1.416l.336.204.048.036.047.027.014.006.047.027c.3.168.6.3.876.408.492.192 1.08.384 1.764.516.9.168 1.956.228 3.108.012.564-.096 1.14-.264 1.74-.516.42-.156.888-.384 1.38-.708 0 0-.6.984-2.172 1.428.36.456.792.972.792.972zm-5.58-5.604c-.684 0-1.224.6-1.224 1.332 0 .732.552 1.332 1.224 1.332.684 0 1.224-.6 1.224-1.332.012-.732-.54-1.332-1.224-1.332zm4.38 0c-.684 0-1.224.6-1.224 1.332 0 .732.552 1.332 1.224 1.332.684 0 1.224-.6 1.224-1.332 0-.732-.54-1.332-1.224-1.332z"/></svg>
-        <span className="text-white pl-1 text-lg font-bold">Join the Discord</span>
-        </a>
-        <div className="text-black font-semibold">We&apos;ll send updates about location and date in the Discord!</div>
       </div>
     </div>
   </>)
