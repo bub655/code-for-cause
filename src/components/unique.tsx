@@ -25,8 +25,8 @@ export const Unique = () => {
 					<div className="">help the local Goodwill automate pickups</div>
 				</div>
 				<div className="text-[10px] mt-2 font-normal leading-3">
-					Note: this is just an example! we&apos;ll have around 10 different
-					tracks like this to choose from!
+					Note: this is just an example! we&apos;ll have 5-10 different tracks
+					like this to choose from!
 				</div>
 			</div>
 		</div>
