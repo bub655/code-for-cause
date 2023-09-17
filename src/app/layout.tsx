@@ -5,7 +5,7 @@ import { Work_Sans } from "next/font/google";
 const workSans = Work_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "Code for a Cause",
+	title: "Code for Cause",
 	description: "Helping local businesses through a hackathon",
 };
 

@@ -12,7 +12,7 @@ export const Unique = () => {
 				</div>
 				<div className="w-10/12 mt-2 text-lg leading-5">
 					Many lack the resources to build high-quality custom tech solutions to
-					meet their needs. That&apos;s where you come in. At Code for a Cause,
+					meet their needs. That&apos;s where you come in. At Code for Cause,
 					you&apos;ll be creating solutions that help those that need it most.
 				</div>
 			</div>

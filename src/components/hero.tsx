@@ -7,7 +7,7 @@ export const Hero = () => {
 			<div className="pt-20 text-center">
 				<div className="pb-4">
 					<span className="font-black shadow-purple-400 text-8xl">
-						Code for a{" "}
+						Code for{" "}
 					</span>
 					<span className="font-black drop-shadow-[4px_6px_var(--tw-shadow-color)] shadow-[#896FBC] text-8xl">
 						Cause

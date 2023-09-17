@@ -2,9 +2,7 @@ export const Navbar = () => {
 	return (
 		<div className="m-6 text-white flex items-center justify-between space-x-8 align-middle">
 			<button className="font-lg">
-				<span className="font-black shadow-purple-400 text-2xl">
-					Code for a{" "}
-				</span>
+				<span className="font-black shadow-purple-400 text-2xl">Code for </span>
 				<span className="font-black drop-shadow-[2px_3px_var(--tw-shadow-color)] shadow-[#896FBC] text-2xl">
 					Cause
 				</span>
