@@ -13,13 +13,15 @@ export const Hero = () => {
 						Cause
 					</span>
 				</div>
-				<div className="font-bold text-purple-100 text-3xl pb-4">
-					The first social good hackathon for middle- and high-schoolers.
+				<div className="m-auto font-bold text-white text-3xl pb-4 w-1/2">
+					The first philanthropic hackathon for middle- and high-schoolers.
 				</div>
 				<Email />
 				<div className="w-fit ml-auto mr-auto bg-[#D9D9D9] rounded-full p-6">
 					<div className="text-black font-bold space-x-4 text-xl ml-2 mr-2">
-						<span>691 S Milpitas Blvd.</span>
+						<a target="_blank" href="https://maps.app.goo.gl/Ep8qt6LtHjQcMKNW9">
+							691 S Milpitas Blvd.
+						</a>
 						<span className="text-2xl">|</span>
 						<span>December 9, 2023</span>
 					</div>
