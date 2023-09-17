@@ -7,8 +7,9 @@ export const Schedule = () => {
 				Schedule
 			</div>
 			<div className="pb-2 ml-auto mr-auto align-center rounded-[2rem] w-fit bg-[#D9D9D9] text-black font-bold text-xl">
-				<div className="text-sm text-center pt-6 pb-2 font-bold">
-					Tentative to change.
+				<div className="text-sm text-center pt-6 pb-2 font-bold w-96 m-auto">
+					We're working on adding in more guest speakers and workshops, so stay
+					tuned!
 				</div>
 				<div>
 					<ScheduleItem time="7:30 am" event="Check-in opens" />
