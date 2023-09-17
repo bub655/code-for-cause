@@ -4,15 +4,15 @@ import { Email } from "./subcomponents/initial-registration";
 export const Interest = () => {
 	return (
 		<>
-			<div className="text-center text-4xl font-black p-6 pt-16">
+			<div className="text-center text-4xl font-black p-6 pt-16" id="register">
 				<span className="drop-shadow-[3px_4px_var(--tw-shadow-color)] shadow-[#896FBC]">
 					Interested?{" "}
 				</span>
-				Drop your Email!
+				Register Now!
 			</div>
-			<div className="ml-auto mr-auto w-96 text-center font-semibold">
-				While we don&apos;t have the details yet, drop your email below to get
-				all the updates about Code for a Cause!
+			<div className="m-auto w-96 text-center font-semibold">
+				Registering takes a few minutes and is completely free. Enter your email
+				below to start!
 			</div>
 			<Email />
 		</>

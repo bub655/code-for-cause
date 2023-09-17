@@ -9,10 +9,15 @@ export const Navbar = () => {
 					Cause
 				</span>
 			</button>
-			<div className="ml-8 flex space-x-8">
-				<button>Sponsor Us</button>
-				<button>Donate now</button>
-				<button>Non-profits</button>
+			<div className="ml-8 flex space-x-8 items-center">
+				<a href="/sponsor">Sponsor Us</a>
+				<a
+					target="_blank"
+					href="https://hcb.hackclub.com/donations/start/codeforcause"
+				>
+					Donate now
+				</a>
+				<a href="/nonprofits">Non-profits</a>
 				<a
 					href="https://discord.gg/SWKsWxXaSq"
 					target="_blank"
@@ -29,9 +34,12 @@ export const Navbar = () => {
 						</g>
 					</svg>
 				</a>
-				<button className="h-10 bg-[#896FBC] text-sm hover:bg-[#7953C5] text-white px-4 rounded-full ">
+				<a
+					href="#register"
+					className="transition flex items-center h-10 bg-[#896FBC] text-sm hover:bg-[#7953C5] text-white px-4 rounded-full"
+				>
 					Register Now
-				</button>
+				</a>
 			</div>
 		</div>
 	);
