@@ -1,9 +1,9 @@
 export const Email = () => {
 	return (
-		<div className="p-2 mb-16 w-fit mt-6 ml-auto mr-auto bg-[#D9D9D9] rounded-full ">
+		<div className="p-2 mb-16 w-fit mt-2 ml-auto mr-auto bg-[#D9D9D9] rounded-full">
 			<form
 				onSubmit={() => {}}
-				className="flex items-center justify-between space-x-8"
+				className="flex items-center justify-between space-x-4"
 			>
 				<input
 					type="email"
@@ -12,9 +12,9 @@ export const Email = () => {
 				/>
 				<button
 					type="submit"
-					className="bg-[#896FBC] hover:bg-[#7953C5] font-semibold text-white px-4 py-2 rounded-full text-2xl"
+					className="bg-[#896FBC] transition hover:bg-[#7953C5] font-semibold text-white px-4 py-2 rounded-full text-2xl"
 				>
-					I&apos;m interested!{" "}
+					Sign me up!
 				</button>
 			</form>
 		</div>
