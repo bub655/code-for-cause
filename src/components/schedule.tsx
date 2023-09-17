@@ -8,7 +8,7 @@ export const Schedule = () => {
 			</div>
 			<div className="pb-2 ml-auto mr-auto align-center rounded-[2rem] w-fit bg-[#D9D9D9] text-black font-bold text-xl">
 				<div className="text-sm text-center pt-6 pb-2 font-bold">
-					Tentative to change. All workshops are optional!
+					Tentative to change.
 				</div>
 				<div>
 					<ScheduleItem time="7:30 am" event="Check-in opens" />
@@ -17,7 +17,7 @@ export const Schedule = () => {
 					<ScheduleItem time="12:30 pm" event="Lunch" />
 					<ScheduleItem time="6:00 pm" event="Dinner" />
 					<ScheduleItem time="6:30 pm" event="Judging Begins" />
-					<ScheduleItem time="8:00 pm" event="Awards Ceremony" />
+					<ScheduleItem time="9:00 pm" event="Awards Ceremony" />
 				</div>
 			</div>
 		</>
