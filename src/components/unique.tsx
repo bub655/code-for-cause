@@ -22,7 +22,7 @@ export const Unique = () => {
 					<div className="line-through decoration-red-500/80 decoration-4 italic">
 						solve food wastage for the 1000th time
 					</div>
-					<div className="">help the local Goodwill automate pickups</div>
+					<div>help the local Goodwill automate pickups</div>
 				</div>
 				<div className="text-[10px] mt-2 font-normal leading-3">
 					Note: this is just an example! we&apos;ll have 5-10 different tracks

@@ -1,6 +1,23 @@
+import { NavbarMobile } from "./subcomponents/NavbarMobile";
+
 export const Navbar = () => {
 	return (
-		<div className="m-6 text-white flex items-center justify-between space-x-8 align-middle">
+		<>
+			{/* desktop nav */}
+			<div className="sticky bg-purple z-40 top-0 p-6 text-white hidden md:flex items-center justify-between space-x-8 align-middle">
+				<DesktopNav />
+			</div>
+			{/* mobile nav */}
+			<div className="sticky bg-purple z-40 top-0 p-6 flex md:hidden items-center justify-end">
+				<NavbarMobile />
+			</div>
+		</>
+	);
+};
+
+const DesktopNav = () => {
+	return (
+		<>
 			<button className="font-lg">
 				<span className="font-black shadow-purple-400 text-2xl">Code for </span>
 				<span className="font-black drop-shadow-[2px_3px_var(--tw-shadow-color)] shadow-[#896FBC] text-2xl">
@@ -39,6 +56,6 @@ export const Navbar = () => {
 					Register Now
 				</a>
 			</div>
-		</div>
+		</>
 	);
 };
