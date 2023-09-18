@@ -7,7 +7,7 @@ export const Email = () => {
 			>
 				<input
 					type="email"
-					placeholder="Your Email"
+					placeholder="What's your email?"
 					className="focus:outline-none ml-4 w-68 bg-transparent text-black pl-3 text-2xl font-bold border-b-[4px] border-[#7953C5]"
 				/>
 				<button
