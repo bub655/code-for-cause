@@ -20,6 +20,9 @@ const config: Config = {
 			purple: "#1B1734",
 		},
 		extend: {
+			width: {
+				"128": "32rem",
+			},
 			textShadow: {
 				sm: "0 1px 2px var(--tw-shadow-color)",
 				DEFAULT: "0 2px 4px var(--tw-shadow-color)",

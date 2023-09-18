@@ -1,5 +1,5 @@
 "use client";
-import { Email } from "./subcomponents/initial-registration";
+import { Email } from "./subcomponents/Email";
 
 export const Interest = () => {
 	return (
