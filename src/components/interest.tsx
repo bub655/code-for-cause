@@ -10,7 +10,7 @@ export const Interest = () => {
 				</span>
 				Register Now!
 			</div>
-			<div className="m-auto w-96 text-center font-semibold">
+			<div className="m-auto md:w-96 text-center font-semibold">
 				Registering takes a few minutes and is completely free. Enter your email
 				below to start!
 			</div>

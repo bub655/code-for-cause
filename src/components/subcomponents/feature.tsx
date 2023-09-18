@@ -100,7 +100,7 @@ type featureProps = {
 
 export const Feature = (props: featureProps) => {
 	return (
-		<div className="w-96 bg-[#D9D9D9] rounded-[16px] p-8 text-black font-bold space-y-2">
+		<div className="w-full md:w-96 bg-[#D9D9D9] rounded-[16px] p-8 text-black font-bold space-y-2">
 			<div className="ml-auto mr-auto w-fit">
 				<SVGIcon logo={props.logo} />
 			</div>

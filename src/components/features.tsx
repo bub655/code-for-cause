@@ -2,8 +2,8 @@ import { Feature } from "./subcomponents/feature";
 
 export const Features = () => {
 	return (
-		<>
-			<div className=" text-center  text-4xl font-black p-6">
+		<div className="p-4">
+			<div className="text-center text-3xl  md:text-4xl font-black p-6">
 				A hackathon you'll{" "}
 				<span className="drop-shadow-[3px_4px_var(--tw-shadow-color)] shadow-[#896FBC]">
 					remember
@@ -27,6 +27,6 @@ export const Features = () => {
 					logo={4}
 				/>
 			</div>
-		</>
+		</div>
 	);
 };
