@@ -9,7 +9,7 @@ import { FrequentlyAskedQuestions } from "@/components/frequently-asked-question
 
 export default function Home() {
 	return (
-		<div>
+		<>
 			<Navbar />
 			<Hero />
 			<Unique />
@@ -18,6 +18,6 @@ export default function Home() {
 			<Schedule />
 			<Interest />
 			<FrequentlyAskedQuestions />
-		</div>
+		</>
 	);
 }

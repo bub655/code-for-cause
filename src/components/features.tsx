@@ -20,11 +20,17 @@ export const Features = () => {
 					text="Free T-shirts, stickers, and more, all made possible by our wonderful sponsors!"
 					logo={2}
 				/>
-				<Feature title="Amazing Food" text="Lunch & Dinner from:" logo={3} />
+				<Feature
+					title="Amazing Food"
+					text="Lunch & Dinner from:"
+					logo={3}
+					food
+				/>
 				<Feature
 					title="Beginner Friendly"
 					text="To help you, mentors from:"
 					logo={4}
+					mentors
 				/>
 			</div>
 		</div>

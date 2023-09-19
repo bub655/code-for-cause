@@ -1,4 +1,9 @@
-"use client";
+import Image from "next/image";
+import chipotlePic from "./chipotle.png";
+import paypalPic from "./paypal.png";
+import metaPic from "./meta.png";
+import billPic from "./bill.png";
+
 function SVGIcon(logo: any) {
 	logo = logo.logo;
 	if (logo == 1) {
@@ -96,6 +101,8 @@ type featureProps = {
 	title: string;
 	text: string;
 	logo: number;
+	food?: boolean;
+	mentors?: boolean;
 };
 
 export const Feature = (props: featureProps) => {
@@ -106,6 +113,34 @@ export const Feature = (props: featureProps) => {
 			</div>
 			<div className="ml-auto mr-auto w-fit text-3xl">{props.title}</div>
 			<div className="ml-auto mr-auto w-fit text-center">{props.text}</div>
+			{props.food && (
+				<div className="flex space-x-2 items-center justify-center">
+					<Image
+						src={chipotlePic}
+						alt="Chipotle logo"
+						height={66}
+						placeholder="blur"
+					/>
+					<span>+ soon to be announced!</span>
+				</div>
+			)}
+			{props.mentors && (
+				<div className="flex space-x-2 items-center justify-center">
+					<Image
+						src={paypalPic}
+						alt="PayPal logo"
+						height={60}
+						placeholder="blur"
+					/>
+					<Image src={metaPic} alt="Meta logo" height={60} placeholder="blur" />
+					<Image
+						src={billPic}
+						alt="Bill.com logo"
+						height={60}
+						placeholder="blur"
+					/>
+				</div>
+			)}
 		</div>
 	);
 };
