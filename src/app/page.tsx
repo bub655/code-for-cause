@@ -1,11 +1,11 @@
-import { Hero } from "../components/hero";
-import { Unique } from "../components/unique";
-import { Navbar } from "../components/navbar";
-import { Organizations } from "@/components/organizations";
-import { Features } from "@/components/features";
-import { Schedule } from "@/components/schedule";
-import { Interest } from "@/components/interest";
-import { FrequentlyAskedQuestions } from "@/components/frequently-asked-questions";
+import { Hero } from "../components/AttendeesLandingPage/Hero";
+import { Unique } from "../components/AttendeesLandingPage/UniqueValue";
+import { Navbar } from "../components/Navbar";
+import { Organizations } from "@/components/AttendeesLandingPage/Organizations";
+import { Features } from "@/components/AttendeesLandingPage/Features";
+import { Schedule } from "@/components/AttendeesLandingPage/Schedule";
+import { Interest } from "@/components/AttendeesLandingPage/Interested";
+import { FrequentlyAskedQuestions } from "@/components/AttendeesLandingPage/FAQ";
 
 export default function Home() {
 	return (

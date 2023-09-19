@@ -1,5 +1,5 @@
 "use client";
-import { FAQItem } from "./subcomponents/faq_item";
+import { FAQItem } from "./utils/FAQItem";
 
 export const FrequentlyAskedQuestions = () => {
 	return (

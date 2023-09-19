@@ -1,6 +1,6 @@
 export const Unique = () => {
 	return (
-		<div className="p-4 pt-10 md:m-12 md:mt-20 flex md:flex-row flex-col flex-wrap justify-between">
+		<div className="p-4  md:p-12 flex md:flex-row flex-col flex-wrap justify-between">
 			<div className="md:w-6/12 md:ml-6">
 				<span>What is a philanthropic hackathon?</span>
 				<div className="text-3xl md:text-4xl">

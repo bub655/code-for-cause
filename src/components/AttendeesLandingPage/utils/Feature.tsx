@@ -1,8 +1,8 @@
 import Image from "next/image";
-import chipotlePic from "./chipotle.png";
-import paypalPic from "./paypal.png";
-import metaPic from "./meta.png";
-import billPic from "./bill.png";
+import chipotlePic from "../images/chipotle.png";
+import paypalPic from "../images/paypal.png";
+import metaPic from "../images/meta.png";
+import billPic from "../images/bill.png";
 
 function SVGIcon(logo: any) {
 	logo = logo.logo;

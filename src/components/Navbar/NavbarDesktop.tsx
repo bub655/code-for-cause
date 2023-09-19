@@ -1,21 +1,4 @@
-import { NavbarMobile } from "./subcomponents/NavbarMobile";
-
-export const Navbar = () => {
-	return (
-		<>
-			{/* desktop nav */}
-			<div className="sticky bg-purple z-40 top-0 p-6 text-white hidden md:flex items-center justify-between space-x-8 align-middle">
-				<DesktopNav />
-			</div>
-			{/* mobile nav */}
-			<div className="sticky bg-purple z-40 top-0 p-6 flex md:hidden items-center justify-end">
-				<NavbarMobile />
-			</div>
-		</>
-	);
-};
-
-const DesktopNav = () => {
+export const DesktopNav = () => {
 	return (
 		<>
 			<button className="font-lg">
@@ -25,7 +8,7 @@ const DesktopNav = () => {
 				</span>
 			</button>
 			<div className="ml-8 flex space-x-8 items-center">
-				<a href="/sponsor">Sponsor Us</a>
+				<a href="/sponsors">Sponsor Us</a>
 				<a
 					target="_blank"
 					href="https://hcb.hackclub.com/donations/start/codeforcause"

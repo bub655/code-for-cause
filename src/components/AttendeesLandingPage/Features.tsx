@@ -1,4 +1,4 @@
-import { Feature } from "./subcomponents/feature";
+import { Feature } from "./utils/Feature";
 
 export const Features = () => {
 	return (

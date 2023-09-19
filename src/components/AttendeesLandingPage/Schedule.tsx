@@ -1,4 +1,4 @@
-import { ScheduleItem } from "./subcomponents/schedule-item";
+import { ScheduleItem } from "./utils/ScheduleItem";
 
 export const Schedule = () => {
 	return (

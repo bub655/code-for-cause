@@ -63,9 +63,9 @@ export const NavbarMobile = () => {
 						>
 							<path
 								stroke="currentColor"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								strokeWidth="2"
 								fill="#000000"
 								d="M23 20.168l-8.185-8.187 8.185-8.174-2.832-2.807-8.182 8.179-8.176-8.179-2.81 2.81 8.186 8.196-8.186 8.184 2.81 2.81 8.203-8.192 8.18 8.192z"
 							/>
@@ -74,7 +74,7 @@ export const NavbarMobile = () => {
 					</button>
 				</div>
 				<div className="flex flex-col space-y-2">
-					<a href="/sponsor" className="text-lg">
+					<a href="/sponsors" className="text-lg">
 						Sponsor Us
 					</a>
 					<a
