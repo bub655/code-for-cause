@@ -1,12 +1,12 @@
 export const DesktopNav = () => {
 	return (
 		<>
-			<button className="font-lg">
+			<a href="/" className="font-lg">
 				<span className="font-black shadow-purple-400 text-2xl">Code for </span>
 				<span className="font-black drop-shadow-[2px_3px_var(--tw-shadow-color)] shadow-[#896FBC] text-2xl">
 					Cause
 				</span>
-			</button>
+			</a>
 			<div className="ml-8 flex space-x-8 items-center">
 				<a href="/sponsors">Sponsor Us</a>
 				<a
