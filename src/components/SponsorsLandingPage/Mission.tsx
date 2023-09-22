@@ -4,7 +4,7 @@ import Image from "next/image";
 export const Mission = () => {
 	return (
 		<>
-			<div className="mx-auto flex justify-center">
+			<div className="ml-4 mr-4 mx-auto flex justify-center space-x-8">
 				<hr className="mx-auto my-4 horizontal-line flex-auto mx-8" />
 				<h2 className="mx-auto text-3xl font-bold">Our mission</h2>
 				<hr className="mx-auto my-4 horizontal-line flex-auto mx-8" />
@@ -29,7 +29,7 @@ export const Mission = () => {
 				<div className="p-2 pr-8 ml-auto mr-auto text-center justify-contents-center font-bold text-lg">
 					<Image
 						src={collaboration}
-						alt="Collaborative sutdents workig together"
+						alt="Collaborative sutdents working together"
 						height={240}
 					/>
 				</div>

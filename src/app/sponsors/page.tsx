@@ -1,10 +1,9 @@
-import { FrequentlyAskedQuestions } from "@/components/AttendeesLandingPage/FAQ";
+import { FrequentlyAskedQuestions } from "@/components/SponsorsLandingPage/FAQ";
 import { UniqueP2 } from "@/components/SponsorsLandingPage/UniqueP2";
 import { Hero } from "@/components/SponsorsLandingPage/Hero";
 import { Mission } from "@/components/SponsorsLandingPage/Mission";
 import { Metadata } from "next";
-import { SponsorshipTiers } from "@/components/SponsorsLandingPage/Features";
-import { Navbar } from "@/components/Navbar";
+import { SponsorshipTiers } from "@/components/SponsorsLandingPage/Tiers";
 
 export const metadata: Metadata = {
 	title:
