@@ -1,4 +1,10 @@
+import { FrequentlyAskedQuestions } from "@/components/AttendeesLandingPage/FAQ";
+import { UniqueP2 } from "@/components/SponsorsLandingPage/UniqueP2";
+import { Hero } from "@/components/SponsorsLandingPage/Hero";
+import { Mission } from "@/components/SponsorsLandingPage/Mission";
 import { Metadata } from "next";
+import { SponsorshipTiers } from "@/components/SponsorsLandingPage/Features";
+import { Navbar } from "@/components/Navbar";
 
 export const metadata: Metadata = {
 	title:
@@ -16,5 +22,14 @@ export const metadata: Metadata = {
 };
 
 export default function Sponsors() {
-	return <>sponsors</>;
+	return (
+		<>
+			<Navbar />
+			<Hero />
+			<Mission />
+			<UniqueP2 />
+			<SponsorshipTiers />
+			<FrequentlyAskedQuestions />
+		</>
+	);
 }
