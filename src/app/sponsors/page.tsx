@@ -24,7 +24,6 @@ export const metadata: Metadata = {
 export default function Sponsors() {
 	return (
 		<>
-			<Navbar />
 			<Hero />
 			<Mission />
 			<UniqueP2 />
