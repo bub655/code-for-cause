@@ -1,6 +1,6 @@
 export const SponsorshipTiers = () => {
 	return (
-		<div className="md:mb-16 md:mt-16">
+		<div className="md:mb-16 md:mt-16 text-center">
 			<div className=" w-fit ml-auto mr-auto md:mt-2 bg-[#D9D9D9] rounded-[16px] p-2 md:p-4 tracking-wide text-black font-bold space-y-2">
 				<div className="font-bold text-3xl text-center">Sponsorship Tiers</div>
 				<div className="flex flex-row justify-between p-2">
@@ -35,9 +35,15 @@ export const SponsorshipTiers = () => {
 				</div>
 			</div>
 			<div className="text-white text-center p-4">
-				All offers are negotiable and customizable. Talk to us at
-				team@codeforcause.com!
+				All tiers are customizable. If you have any questions, please contact us
+				at:
 			</div>
+			<a
+				href="mailto:team@codeforcause.com"
+				className="bg-[#896FBC] transition hover:bg-[#7953C5] rounded-full px-6 py-2 font-semibold text-md"
+			>
+				team@codeforcause.com
+			</a>
 		</div>
 	);
 };
