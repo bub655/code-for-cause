@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 export const NavbarMobile = () => {
@@ -45,9 +46,9 @@ export const NavbarMobile = () => {
 			>
 				<div className="flex justify-between items-center">
 					<div>
-						<a href="/" className="font-bold shadow-purple-400 text-2xl">
+						<Link href="/" className="font-bold shadow-purple-400 text-2xl">
 							Code for Cause
-						</a>
+						</Link>
 					</div>
 					<button
 						onClick={() => setOpen(false)}
@@ -74,9 +75,9 @@ export const NavbarMobile = () => {
 					</button>
 				</div>
 				<div className="flex flex-col space-y-2">
-					<a href="/sponsors" className="text-lg">
+					<Link href="/sponsors" className="text-lg">
 						Sponsor Us
-					</a>
+					</Link>
 					<a
 						target="_blank"
 						className="text-lg"
@@ -84,21 +85,21 @@ export const NavbarMobile = () => {
 					>
 						Donate now
 					</a>
-					<a className="text-lg" href="/nonprofits">
-						Non-profits
-					</a>
+					<Link className="text-lg" href="/contact">
+						Contact Us
+					</Link>
 					<a
 						href="https://discord.gg/SWKsWxXaSq"
 						className="text-lg transition w-full space-x-2 justify-center flex items-center h-10 bg-[#738adb] text-white px-4 rounded-full"
 					>
 						Join the Discord
 					</a>
-					<a
+					<Link
 						href="#register"
 						className="text-lg transition w-full flex justify-center items-center h-10 bg-[#896FBC] hover:bg-[#7953C5] text-white px-4 rounded-full"
 					>
 						Register Now!
-					</a>
+					</Link>
 				</div>
 			</div>
 		</>

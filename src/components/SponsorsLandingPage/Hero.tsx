@@ -20,7 +20,7 @@ export const Hero = () => {
 				>
 					Get in touch!
 				</a>
-				<div className="my-12 flex items-center md:flex-row flex-col w-full md:w-fit mx-auto bg-[#D9D9D9] rounded-full p-2 md:p-4 text-black font-bold md:space-x-4 text-xl">
+				<div className="my-12 flex items-center md:flex-row flex-col w-full md:w-fit mx-auto bg-[#D9D9D9] rounded-full p-2 md:px-6 md:p-4 text-black font-bold md:space-x-4 text-xl">
 					<a target="_blank" href="https://maps.app.goo.gl/Ep8qt6LtHjQcMKNW9">
 						691 S Milpitas Blvd.
 					</a>

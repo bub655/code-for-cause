@@ -1,21 +1,23 @@
+import Link from "next/link";
+
 export const DesktopNav = () => {
 	return (
 		<>
-			<a href="/" className="font-lg">
+			<Link href="/" className="font-lg">
 				<span className="font-black shadow-purple-400 text-2xl">Code for </span>
 				<span className="font-black drop-shadow-[2px_3px_var(--tw-shadow-color)] shadow-[#896FBC] text-2xl">
 					Cause
 				</span>
-			</a>
+			</Link>
 			<div className="ml-8 flex space-x-8 items-center">
-				<a href="/sponsors">Sponsor Us</a>
+				<Link href="/sponsors">Sponsor Us</Link>
 				<a
 					target="_blank"
 					href="https://hcb.hackclub.com/donations/start/codeforcause"
 				>
 					Donate now
 				</a>
-				<a href="/nonprofits">Non-profits</a>
+				<Link href="/contact">Contact Us</Link>
 				<a
 					href="https://discord.gg/SWKsWxXaSq"
 					target="_blank"
@@ -32,12 +34,12 @@ export const DesktopNav = () => {
 						</g>
 					</svg>
 				</a>
-				<a
-					href="#register"
+				<Link
+					href="/register"
 					className="transition flex items-center h-10 bg-[#896FBC] text-sm hover:bg-[#7953C5] text-white px-4 rounded-full"
 				>
 					Register Now
-				</a>
+				</Link>
 			</div>
 		</>
 	);
