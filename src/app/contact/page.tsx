@@ -58,7 +58,7 @@ const Contact = () => {
 					onSubmit={submitForm}
 					className="rounded-[2rem] space-y-4 max-w-xl p-8 bg-[#D9D9D9] text-black font-bold"
 				>
-					<h1 className="text-3xl">Register for Code for Cause 2023!</h1>
+					<h1 className="text-3xl">Send us a Message!</h1>
 					<p className="text-md font-normal">All fields are required.</p>
 
 					<div>
