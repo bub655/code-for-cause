@@ -15,7 +15,7 @@ const Contact = () => {
 		const message = ((e.target as HTMLFormElement)[2] as any).value;
 
 		const response = await fetch(
-			`/api/contact?name=${name}&email=${email}&message=${message}`,
+			`/api/contact?name=${name}&email=${email}&msg=${message}`,
 			{
 				method: "POST",
 			}
