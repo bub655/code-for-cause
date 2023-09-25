@@ -4,6 +4,8 @@ import { useState } from "react";
 
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
+import { Analytics, logEvent } from "firebase/analytics";
+import { analytics } from "@/utils/firebase";
 
 const Register = () => {
 	const searchParams = useSearchParams();
@@ -38,6 +40,8 @@ const Register = () => {
 		} else {
 			console.error("Error registering: ", json.error);
 		}
+
+		logEvent((await analytics) as Analytics, "registered");
 
 		setIsLoading(false);
 		setSaved(true);

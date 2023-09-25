@@ -1,6 +1,13 @@
 "use client";
 
+import { analytics } from "@/utils/firebase";
+import { useEffect } from "react";
+
 export const Hero = () => {
+	useEffect(() => {
+		console.log(analytics);
+	}, []);
+
 	return (
 		<>
 			<div className="text-center p-4 md:p-8">

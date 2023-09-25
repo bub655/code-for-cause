@@ -16,4 +16,6 @@ const app = initializeApp(firebaseConfig);
 
 export const db = getFirestore(app);
 
-const analytics = isSupported().then((yes) => (yes ? getAnalytics(app) : null));
+export const analytics = isSupported().then((yes) =>
+	yes ? getAnalytics(app) : null
+);
