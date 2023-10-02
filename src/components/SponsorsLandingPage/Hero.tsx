@@ -18,8 +18,8 @@ export const Hero = () => {
 					<span>the next problem-solvers</span>
 				</div>
 				<div className="m-auto font-bold text-white text-3xl pb-12 md:w-8/12">
-					Support 200+ middle- and high-school hackers solving <em>real</em>{" "}
-					problems for <em>real</em> organizations.
+					Support 200+ high-school hackers solving <em>real</em> problems for{" "}
+					<em>real</em> organizations.
 				</div>
 				<a
 					href="mailto:team@codeforcause.dev"

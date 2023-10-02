@@ -19,7 +19,7 @@ export const FrequentlyAskedQuestions = () => {
 				/>
 				<FAQItem
 					question="Who can participate?"
-					answer="Code for Cause is open to both middle- and high-schoolers and we’ll even have an additional award category for middle schoolers!"
+					answer="Code for Cause is open to all high-schoolers!"
 				/>
 				<FAQItem
 					question="Who are the judges?"

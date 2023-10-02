@@ -12,14 +12,14 @@ export const metadata: Metadata = {
 		canonical: "/",
 	},
 	description:
-		"Join the first philanthropic hackathon for middle- and high-schoolers where students in the Bay Area will solve real-world problems for non-profits in need of their skills.",
+		"Join the first philanthropic hackathon for high-schoolers! Students in the Bay Area will solve real-world problems for non-profits in need of their skills.",
 	openGraph: {
 		images: "/og-image.png",
 		url: "https://codeforcause.dev",
 		type: "website",
 		title: "Attend the First Philanthropic Hackathon for Students",
 		description:
-			"Middle- and high-schoolers get 12 hours to solve real-world problems for non-profits in need of their skills.",
+			"High-schoolers get 12 hours to solve real-world problems for non-profits in need of their skills.",
 	},
 };
 

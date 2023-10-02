@@ -12,7 +12,7 @@ export const Hero = () => {
 					</span>
 				</div>
 				<div className="m-auto font-bold text-white text-3xl pb-4 md:w-1/2">
-					The first philanthropic hackathon for middle- and high-schoolers.
+					The first philanthropic hackathon for high-schoolers.
 				</div>
 				<Email />
 				<div className="flex items-center md:flex-row flex-col w-full md:w-fit ml-auto mr-auto bg-[#D9D9D9] rounded-full p-2 md:px-6 md:p-4 text-black font-bold md:space-x-4 text-xl">
