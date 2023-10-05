@@ -15,6 +15,7 @@ export async function POST(request: NextRequest) {
 			grade: searchParams.get("grade"),
 			size: searchParams.get("size"),
 			skill: searchParams.get("skill"),
+			source: searchParams.get("source"),
 			registered: serverTimestamp(),
 		});
 		console.log("Registered: ", email);
@@ -28,6 +29,7 @@ export async function POST(request: NextRequest) {
 					grade: searchParams.get("grade"),
 					size: searchParams.get("size"),
 					skill: searchParams.get("skill"),
+					source: searchParams.get("source"),
 					emailSaved: serverTimestamp(),
 					registered: serverTimestamp(),
 				});

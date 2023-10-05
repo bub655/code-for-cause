@@ -17,6 +17,7 @@ const Register = () => {
 	const [size, setSize] = useState("");
 	const [skill, setSkill] = useState("");
 	const [saved, setSaved] = useState(false);
+	const [source, setSource] = useState("");
 
 	const submitForm = async (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
@@ -27,7 +28,7 @@ const Register = () => {
 		const diet = ((e.target as HTMLFormElement)[5] as any).value;
 
 		const response = await fetch(
-			`/api/register?name=${name}&email=${email}&diet=${diet}&grade=${grade}&size=${size}&skill=${skill}`,
+			`/api/register?name=${name}&email=${email}&diet=${diet}&grade=${grade}&size=${size}&skill=${skill}&source=${source}`,
 			{
 				method: "POST",
 			}
@@ -198,6 +199,30 @@ const Register = () => {
 							type="text"
 							id="diet"
 						/>
+					</div>
+
+					<div>
+						<label className="block text-lg" htmlFor="size">
+							How did you hear about us?
+						</label>
+						<select
+							required
+							className="w-full rounded-lg bg-white font-normal border border-gray-300 p-2 outline-none outline outline-neutral-700"
+							id="size"
+							value={skill}
+							onChange={(e) => setSource(e.target.value)}
+						>
+							<option value="" disabled>
+								Select an option
+							</option>
+							<option value="google">Google Search</option>
+							<option value="hack">Hack Club Hackathons Page</option>
+							<option value="slack">Hack Club Slack</option>
+							{/* <option value="devpost">Devpost</option> */}
+							<option value="instagram">Instagram</option>
+							<option value="linkedin">Linkedin</option>
+							<option value="friend">A friend</option>
+						</select>
 					</div>
 
 					<button
