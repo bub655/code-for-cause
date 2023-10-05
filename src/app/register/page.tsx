@@ -62,9 +62,15 @@ const Register = () => {
 					</svg>
 					<h2 className="text-2xl">You're registered!</h2>
 					<p className="text-center font-normal">
-						In the next 48 hours, expect an email with a waiver you'll need to
-						sign to confirm your attendance. If you don't see it, feel free to
-						<Link href="/contact">contact us</Link>.
+						Check your email for a confirmation email with waivers required to
+						participate in the event. If you don't see it, feel free to{" "}
+						<span className="underline">
+							<Link href="/contact">contact us</Link>
+						</span>{" "}
+						or send us an email at{" "}
+						<a className="underline" href="mailto:team@codeforcause.dev">
+							team@codeforcause.dev
+						</a>
 					</p>
 				</div>
 			) : (
@@ -209,7 +215,7 @@ const Register = () => {
 							required
 							className="w-full rounded-lg bg-white font-normal border border-gray-300 p-2 outline-none outline outline-neutral-700"
 							id="size"
-							value={skill}
+							value={source}
 							onChange={(e) => setSource(e.target.value)}
 						>
 							<option value="" disabled>

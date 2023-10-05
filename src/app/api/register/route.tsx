@@ -1,16 +1,18 @@
 import { db } from "@/utils/firebase";
+import sendRegistrationEmail from "@/utils/sendRegistrationEmail";
 import { doc, serverTimestamp, setDoc, updateDoc } from "firebase/firestore";
 import { type NextRequest, NextResponse } from "next/server";
 
 export async function POST(request: NextRequest) {
 	const searchParams = request.nextUrl.searchParams;
 
-	const email = searchParams.get("email");
+	const email = searchParams.get("email") as string;
+	const name = searchParams.get("name") as string;
 
 	try {
 		await updateDoc(doc(db, `attendees/${email}`), {
 			email: searchParams.get("email"),
-			name: searchParams.get("name"),
+			name: name,
 			diet: searchParams.get("diet"),
 			grade: searchParams.get("grade"),
 			size: searchParams.get("size"),
@@ -19,6 +21,7 @@ export async function POST(request: NextRequest) {
 			registered: serverTimestamp(),
 		});
 		console.log("Registered: ", email);
+		sendRegistrationEmail(name, email);
 	} catch (e: any) {
 		try {
 			if (e.code == "not-found") {
