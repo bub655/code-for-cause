@@ -17,6 +17,7 @@ const config: Config = {
 			gray: colors.gray,
 			indigo: colors.indigo,
 			yellow: colors.yellow,
+			stone: colors.stone,
 			purple: "#1B1734",
 		},
 		extend: {
