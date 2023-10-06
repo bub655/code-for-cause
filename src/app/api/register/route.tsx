@@ -21,7 +21,7 @@ export async function POST(request: NextRequest) {
 			registered: serverTimestamp(),
 		});
 		console.log("Registered: ", email);
-		sendRegistrationEmail(name, email);
+		await sendRegistrationEmail(name, email);
 	} catch (e: any) {
 		try {
 			if (e.code == "not-found") {
@@ -37,6 +37,7 @@ export async function POST(request: NextRequest) {
 					registered: serverTimestamp(),
 				});
 				console.log("Registered: ", email);
+				await sendRegistrationEmail(name, email);
 			} else {
 				throw new Error(e);
 			}
