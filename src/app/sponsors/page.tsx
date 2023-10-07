@@ -1,5 +1,5 @@
 import { FrequentlyAskedQuestions } from "@/components/SponsorsLandingPage/FAQ";
-import { UniqueP2 } from "@/components/SponsorsLandingPage/UniqueP2";
+import { Unique } from "@/components/SponsorsLandingPage/Unique";
 import { Hero } from "@/components/SponsorsLandingPage/Hero";
 import { Mission } from "@/components/SponsorsLandingPage/Mission";
 import { Metadata } from "next";
@@ -25,7 +25,7 @@ export default function Sponsors() {
 		<>
 			<Hero />
 			<Mission />
-			<UniqueP2 />
+			<Unique />
 			<SponsorshipTiers />
 			<FrequentlyAskedQuestions />
 		</>

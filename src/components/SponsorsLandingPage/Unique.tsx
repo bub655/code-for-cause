@@ -1,7 +1,4 @@
-import Image from "next/image";
-import collaboration from "../images/collaboration.png";
-
-export const UniqueP2 = () => {
+export const Unique = () => {
 	return (
 		<div className="p-4 md:p-8 md:pb-24 flex md:flex-row flex-col flex-wrap justify-between">
 			<div className="md:w-6/12 md:ml-6">
