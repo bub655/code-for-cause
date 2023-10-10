@@ -1,5 +1,6 @@
 import { db } from "@/utils/firebase";
 import sendRegistrationEmail from "@/utils/sendRegistrationEmail";
+import sendDiscordMessage from "@/utils/sendDiscordRegistrationMessage";
 import { doc, serverTimestamp, setDoc, updateDoc } from "firebase/firestore";
 import { type NextRequest, NextResponse } from "next/server";
 
@@ -24,6 +25,7 @@ export async function POST(request: NextRequest) {
 		});
 		console.log("Registered: ", email);
 		await sendRegistrationEmail(name, email);
+		await sendDiscordMessage(name, email);
 	} catch (e: any) {
 		try {
 			if (e.code == "not-found") {
@@ -42,6 +44,7 @@ export async function POST(request: NextRequest) {
 				});
 				console.log("Registered: ", email);
 				await sendRegistrationEmail(name, email);
+				await sendDiscordMessage(name, email);
 			} else {
 				throw new Error(e);
 			}

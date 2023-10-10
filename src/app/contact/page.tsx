@@ -50,7 +50,9 @@ const Contact = () => {
 						We'll try our best to reply to you at the email you provided in the
 						next 48 hours. If you don't see anything, please check your spam
 						folder or feel free to email us at{" "}
-						<a href="mailto:team@codeforcause.dev">team@codeforcause.dev</a>.
+						<a className="underline" href="mailto:team@codeforcause.dev">
+							team@codeforcause.dev
+						</a>
 					</p>
 				</div>
 			) : (
