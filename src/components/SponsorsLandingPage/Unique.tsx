@@ -11,7 +11,7 @@ export const Unique = () => {
 				</div>
 				<div className="md:w-10/12 mt-2 text-lg leading-5">
 					Unlike traditional hackathons, we focus on solving real-world
-					challenges faced by nonprofits, fostering a culture of impact among
+					challenges faced by non-profits, fostering a culture of impact among
 					the next generation. By supporting us, you're supporting young talent
 					dedicated to making positive change in their communities.
 				</div>
