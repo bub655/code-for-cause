@@ -11,7 +11,7 @@ export const FrequentlyAskedQuestions = () => {
 					</div>
 					<div className="w-fit">
 						We are fiscally sponsored by Hack Club, a 501(c)(3) nonprofit,
-						legally registered as The Hack Foundation with the EIN 81-2908499.
+						legally registered as "The Hack Foundation" with the EIN 81-2908499.
 						All donations are tax-deductible.
 					</div>
 				</div>
