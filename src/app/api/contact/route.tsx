@@ -17,7 +17,7 @@ export async function POST(request: NextRequest) {
 			message: searchParams.get("msg"),
 			timeSent: serverTimestamp(),
 		});
-		// await sendContactEmail(message, email, name);
+		await sendContactEmail(message, email, name);
 		await sendDiscordContactMessage(message, email, name);
 		console.log("Saved message: ", email);
 	} catch (e: any) {
