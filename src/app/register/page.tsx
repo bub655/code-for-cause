@@ -195,7 +195,7 @@ const Register = () => {
 						</label>
 						<p className="mb-1 block text-md font-normal text-sm">
 							Make sure to include if you are vegan or vegetarian or have any
-							allergies. If left blank, we'll assume you eat everything.
+							allergies. If you have none, write "N/A"
 						</p>
 						<input
 							required
