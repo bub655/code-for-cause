@@ -26,9 +26,9 @@ const Register = () => {
 		const name = ((e.target as HTMLFormElement)[0] as any).value;
 		const email = ((e.target as HTMLFormElement)[1] as any).value;
 		const diet = ((e.target as HTMLFormElement)[5] as any).value;
-
+		const notes = ((e.target as HTMLFormElement)[7] as any).value;
 		const response = await fetch(
-			`/api/register?name=${name}&email=${email}&diet=${diet}&grade=${grade}&size=${size}&skill=${skill}&source=${source}`,
+			`/api/register?name=${name}&email=${email}&diet=${diet}&grade=${grade}&size=${size}&skill=${skill}&source=${source}&notes=${notes}`,
 			{
 				method: "POST",
 			}
@@ -229,6 +229,23 @@ const Register = () => {
 							<option value="linkedin">Linkedin</option>
 							<option value="friend">A friend</option>
 						</select>
+					</div>
+
+					<div>
+						<label className="text-lg block" htmlFor="notes">
+							Additional Comments
+						</label>
+						<p className="mb-1 block text-md font-normal text-sm">
+							Put any comments or questions you have here.
+						</p>
+						<input
+							required
+							placeholder="I am in middle school!"
+							className="w-full rounded-lg bg-white font-normal border border-gray-300 p-2 outline-none"
+							spellCheck="false"
+							type="text"
+							id="notes"
+						/>
 					</div>
 
 					<button

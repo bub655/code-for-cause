@@ -19,7 +19,7 @@ export async function POST(request: NextRequest) {
 			size: searchParams.get("size"),
 			skill: searchParams.get("skill"),
 			source: searchParams.get("source"),
-			notes: "None",
+			notes: searchParams.get("notes"),
 			forms: false,
 			registered: serverTimestamp(),
 		});
@@ -37,7 +37,7 @@ export async function POST(request: NextRequest) {
 					size: searchParams.get("size"),
 					skill: searchParams.get("skill"),
 					source: searchParams.get("source"),
-					notes: "None",
+					notes: searchParams.get("notes"),
 					forms: false,
 					emailSaved: serverTimestamp(),
 					registered: serverTimestamp(),
