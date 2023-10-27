@@ -9,7 +9,6 @@ export async function POST(request: NextRequest) {
 
 	const email = searchParams.get("email") as string;
 	const name = searchParams.get("name") as string;
-
 	try {
 		await updateDoc(doc(db, `attendees/${email}`), {
 			email: searchParams.get("email"),

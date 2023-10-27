@@ -239,7 +239,6 @@ const Register = () => {
 							Put any comments or questions you have here.
 						</p>
 						<input
-							required
 							placeholder="I am in middle school!"
 							className="w-full rounded-lg bg-white font-normal border border-gray-300 p-2 outline-none"
 							spellCheck="false"
