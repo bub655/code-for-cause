@@ -225,6 +225,7 @@ const Register = () => {
 							<option value="hack">Hack Club Hackathons Page</option>
 							<option value="slack">Hack Club Slack</option>
 							<option value="devpost">Devpost</option>
+							<option value="discord">Discord</option>
 							<option value="instagram">Instagram</option>
 							<option value="linkedin">Linkedin</option>
 							<option value="friend">A friend</option>
