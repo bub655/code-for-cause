@@ -13,7 +13,7 @@ export const Organizations = () => {
 				you'll be solving for
 			</div>
 			<div className="rounded-[16px] ml-auto mb-8 mr-auto flex flex-col md:flex-row items-center justify-center w-fit flex p-4 px-8 bg-gray-300 space-y-4 md:space-y-0 md:space-x-16">
-				<Link href="https://boxmate.co/">
+				<Link target="_blank" href="https://boxmate.co/">
 					<Image
 						height={50}
 						src={boxmate}
@@ -21,7 +21,7 @@ export const Organizations = () => {
 						alt="Goodwill logo"
 					/>
 				</Link>
-				<Link href="https://www.isoaccess.org/">
+				<Link target="_blank" href="https://www.isoaccess.org/">
 					<Image
 						height={50}
 						src={isoaccess}

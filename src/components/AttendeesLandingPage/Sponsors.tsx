@@ -11,7 +11,7 @@ export const Sponsors = () => {
 				Made possibly by
 			</div>
 			<div className="rounded-[16px] ml-auto mr-auto flex flex-col md:flex-row items-center justify-center w-fit flex p-4 px-8 bg-gray-300 space-y-4 md:space-y-0 md:space-x-16">
-				<Link href="https://boxmate.co">
+				<Link target="_blank" href="https://boxmate.co">
 					<Image
 						height={45}
 						src={boxmate}
@@ -19,10 +19,10 @@ export const Sponsors = () => {
 						alt="BoxMate logo"
 					/>
 				</Link>
-				<Link href="https://www.ubs.com">
+				<Link target="_blank" href="https://www.ubs.com">
 					<Image height={50} src={ubs} placeholder="blur" alt="UBS logo" />
 				</Link>
-				<Link href="https://falconx.us/">
+				<Link target="_blank" href="https://falconx.us/">
 					<Image
 						height={45}
 						src={falconx}
