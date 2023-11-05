@@ -19,6 +19,7 @@ export default function Home() {
 	return (
 		<>
 			<Hero />
+
 			<Unique />
 			{/* <Organizations /> */}
 			<Features />

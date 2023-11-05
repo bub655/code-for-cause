@@ -7,7 +7,7 @@ export const Schedule = () => {
 				Schedule
 			</div>
 			<div className="m-auto py-6 rounded-[2rem] w-fit bg-[#D9D9D9] text-black font-bold text-xl overflow-hidden">
-				<div className="text-sm text-center  pb-2 font-bold md:w-96 m-auto">
+				<div className="text-sm text-center pb-2 font-bold md:w-96 m-auto mx-2">
 					We're working on adding in more guest speakers and workshops, so stay
 					tuned!
 				</div>

@@ -4,7 +4,7 @@ import { FAQItem } from "./utils/FAQItem";
 export const FrequentlyAskedQuestions = () => {
 	return (
 		<>
-			<div className="text-center text-4xl font-black p-6 drop-shadow-[3px_4px_var(--tw-shadow-color)] shadow-[#896FBC]">
+			<div className="text-center text-4xl font-black mt-8 drop-shadow-[3px_4px_var(--tw-shadow-color)] shadow-[#896FBC]">
 				Questions
 			</div>
 			<div className="p-4 grid lg:grid-cols-2 gap-12 h-fit w-fit ml-auto mr-auto sm:grid-cols-1">

@@ -32,7 +32,7 @@ export const Email = () => {
 	return (
 		<form
 			onSubmit={saveEmail}
-			className="mb-16 w-fit mt-2 ml-auto mr-auto relative flex flex-col bg-[#D9D9D9] pt-0 rounded-3xl p-2 md:p-0 md:bg-transparent"
+			className="w-fit mt-2 ml-auto mr-auto relative flex flex-col bg-[#D9D9D9] pt-0 rounded-3xl p-2 md:p-0 md:bg-transparent"
 		>
 			<input
 				type="email"
