@@ -9,7 +9,7 @@ export const Sponsors = () => {
 	return (
 		<>
 			<div className=" text-center  text-3xl font-black m-2">
-				Made possibly by
+				Made possible by
 			</div>
 			<div className="rounded-[16px] ml-auto mr-auto flex flex-col md:flex-row items-center justify-center w-fit flex p-4 px-8 bg-gray-300 space-y-4 md:space-y-0 md:space-x-8">
 				<Link target="_blank" href="https://boxmate.co">
