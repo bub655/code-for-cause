@@ -1,6 +1,7 @@
 import Image from "next/image";
 import boxmate from "./images/boxmate.png";
 import isoaccess from "./images/isoaccess.png";
+import interteach from "./images/interteach.png";
 import Link from "next/link";
 
 export const Organizations = () => {
@@ -12,7 +13,7 @@ export const Organizations = () => {
 				</span>
 				you'll be solving for
 			</div>
-			<div className="rounded-[16px] ml-auto mb-8 mr-auto flex flex-col md:flex-row items-center justify-center w-fit flex p-4 px-8 bg-gray-300 space-y-4 md:space-y-0 md:space-x-16">
+			<div className="rounded-[16px] ml-auto mb-8 mr-auto flex flex-col md:flex-row items-center justify-center w-fit flex p-4 px-8 bg-gray-300 space-y-4 md:space-y-0 md:space-x-8">
 				<Link target="_blank" href="https://boxmate.co/">
 					<Image
 						height={50}
@@ -27,6 +28,14 @@ export const Organizations = () => {
 						src={isoaccess}
 						placeholder="blur"
 						alt="Goodwill logo"
+					/>
+				</Link>
+				<Link target="_blank" href="https://interteach.vercel.app/">
+					<Image
+						height={45}
+						src={interteach}
+						placeholder="blur"
+						alt="InterTeach logo"
 					/>
 				</Link>
 				<div className="text-black font-bold text-2xl">+ more to come!</div>
