@@ -30,9 +30,8 @@ export const EmailTemplate: React.FC<{ name: string }> = ({ name }) => {
 						share this information with anyone outside of medical authorities
 						and necessary staff at the event.
 						<b>
-							Please reply to this email with a signed copy of this form by
-							Saturday, November 11, to confirm your participation in Code for
-							Cause 2023.
+							Please reply to this email with a signed copy of this form as soon
+							as possible, to confirm your participation in Code for Cause 2023.
 						</b>
 					</div>
 				</li>
@@ -46,9 +45,8 @@ export const EmailTemplate: React.FC<{ name: string }> = ({ name }) => {
 						that could occur during the event. If you are under the age of 18,
 						you will need a parent or guardian to sign off on this form.&nbsp;
 						<b>
-							Please reply to this email with a signed copy of this form by
-							Saturday, November 11, to confirm your participation in Code for
-							Cause 2023.
+							Please reply to this email with a signed copy of this form as soon
+							as possible to confirm your participation in Code for Cause 2023.
 						</b>
 					</div>
 				</li>
