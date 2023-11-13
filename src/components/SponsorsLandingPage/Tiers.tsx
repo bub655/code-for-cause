@@ -181,6 +181,18 @@ export const SponsorshipTiers = () => {
 						</svg>
 						<p className="text-lg">Send Company Representatives</p>
 					</div>
+					<div className="flex space-x-4 items-center">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="28"
+							height="28"
+							viewBox="0 0 24 28"
+							className="min-w-[28px]"
+						>
+							<path d="M9 22l-10-10.598 2.798-2.859 7.149 7.473 13.144-14.016 2.909 2.806z" />
+						</svg>
+						<p className="text-lg">Send Judge for our Panel</p>
+					</div>
 					<a
 						href="mailto:team@codeforcause.dev"
 						className="text-lg transition w-full flex justify-center items-center h-10 bg-[#896FBC] hover:bg-[#7953C5] text-white px-4 rounded-full"
@@ -291,6 +303,18 @@ export const SponsorshipTiers = () => {
 							<path d="M9 22l-10-10.598 2.798-2.859 7.149 7.473 13.144-14.016 2.909 2.806z" />
 						</svg>
 						<p className="text-lg">Send Company Representatives</p>
+					</div>
+					<div className="flex space-x-4 items-center">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="28"
+							height="28"
+							viewBox="0 0 24 28"
+							className="min-w-[28px]"
+						>
+							<path d="M9 22l-10-10.598 2.798-2.859 7.149 7.473 13.144-14.016 2.909 2.806z" />
+						</svg>
+						<p className="text-lg">Send Judge for our Panel</p>
 					</div>
 					<div className="flex space-x-4 items-center">
 						<svg
