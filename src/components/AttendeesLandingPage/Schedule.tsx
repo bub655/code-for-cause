@@ -20,7 +20,7 @@ export const Schedule = () => {
 					<ScheduleItem time="12:30 pm" event="Lunch" dark />
 					<ScheduleItem time="2:30 pm" event="Speaker Slot 1" />
 					<ScheduleItem time="6:00 pm" event="Dinner" dark />
-					<ScheduleItem time="6:30 pm" event="Judging Begins" />
+					<ScheduleItem time="7:30 pm" event="Judging Begins" />
 					<ScheduleItem time="9:00 pm" event="Awards Ceremony" dark />
 				</div>
 			</div>
