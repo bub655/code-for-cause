@@ -62,6 +62,9 @@ export const Email = () => {
 					)}
 				</button>
 			</div>
+			<div className="mt-2 text-black md:text-white">
+				Sign up by 11:59 PM Nov 18 to get a T-shirt!
+			</div>
 		</form>
 	);
 };
