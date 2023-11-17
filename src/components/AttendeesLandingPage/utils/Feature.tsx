@@ -1,5 +1,6 @@
 import Image from "next/image";
 import chipotlePic from "../images/chipotle.png";
+import pandaPic from "../images/panda.png";
 import paypalPic from "../images/paypal.png";
 import metaPic from "../images/meta.png";
 import billPic from "../images/bill.png";
@@ -121,7 +122,12 @@ export const Feature = (props: featureProps) => {
 						height={66}
 						placeholder="blur"
 					/>
-					<span>+ soon to be announced!</span>
+					<Image
+						src={pandaPic}
+						alt="Panda Express logo"
+						height={66}
+						placeholder="blur"
+					/>
 				</div>
 			)}
 			{props.mentors && (

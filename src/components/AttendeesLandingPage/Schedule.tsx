@@ -15,13 +15,25 @@ export const Schedule = () => {
 					<ScheduleItem time="7:30 am" event="Check-in opens" />
 					<ScheduleItem time="8:30 am" event="Opening Ceremony" dark />
 					<ScheduleItem time="9:00 am" event="Hacking Begins!" />
-					<ScheduleItem time="9:30 am" event="Workshop Slot 1" dark />
-					<ScheduleItem time="10:30 am" event="Workshop Slot 2" />
-					<ScheduleItem time="12:30 pm" event="Lunch" dark />
-					<ScheduleItem time="2:30 pm" event="Speaker Slot 1" />
-					<ScheduleItem time="6:00 pm" event="Dinner" dark />
-					<ScheduleItem time="7:30 pm" event="Judging Begins" />
-					<ScheduleItem time="9:00 pm" event="Awards Ceremony" dark />
+					<ScheduleItem
+						time="9:15 am"
+						event="Workshop: Web Apps with React"
+						dark
+					/>
+					<ScheduleItem
+						time="9:45 am"
+						event="Workshop: Cross-Platform Apps with Flutter"
+					/>
+					<ScheduleItem
+						time="10:15 am"
+						event="Workshop: Web Apps with Python using Reflex"
+						dark
+					/>
+					<ScheduleItem time="12:30 pm" event="Lunch" />
+					<ScheduleItem time="2:30 pm" event="Speaker Slot 1" dark />
+					<ScheduleItem time="6:00 pm" event="Dinner" />
+					<ScheduleItem time="7:30 pm" event="Judging Begins" dark />
+					<ScheduleItem time="9:00 pm" event="Awards Ceremony" />
 				</div>
 			</div>
 		</div>
