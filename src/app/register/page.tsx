@@ -178,7 +178,7 @@ const Register = () => {
 							<option value={1}>
 								Beginner: have never coded before or just started learning
 							</option>
-							<option value={3}>
+							<option value={2}>
 								Intermediate: I have taken CS classes OR worked on small
 								individual projects
 							</option>
