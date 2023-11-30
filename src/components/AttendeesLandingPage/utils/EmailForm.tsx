@@ -62,6 +62,9 @@ export const Email = () => {
 					)}
 				</button>
 			</div>
+			<div className="mt-2 text-black md:text-white">
+				Registration closes Friday, Dec 1, 2023 at 11:59 PM PST!
+			</div>
 		</form>
 	);
 };
