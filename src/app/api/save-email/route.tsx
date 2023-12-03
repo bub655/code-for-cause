@@ -30,7 +30,7 @@ export async function POST(request: NextRequest) {
 				throw new Error(e);
 			}
 		} catch (e) {
-			console.log("Error registering: ", e);
+			console.log("Error saving email: ", e);
 			return NextResponse.json({ success: false, error: e }, { status: 500 });
 		}
 

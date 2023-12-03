@@ -1,9 +1,11 @@
-"use client";
-
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-export const Email = () => {
+type CollectEmailProps = {
+	noText?: boolean;
+};
+
+export const Email = ({ noText }: CollectEmailProps) => {
 	const [isLoading, setIsLoading] = useState(false);
 	const router = useRouter();
 
@@ -26,13 +28,13 @@ export const Email = () => {
 		}
 
 		setIsLoading(false);
-		router.push(`/register?email=${email}`);
+		router.push(`/email-saved`);
 	};
 
 	return (
 		<form
 			onSubmit={saveEmail}
-			className="w-fit mt-2 ml-auto mr-auto relative flex flex-col bg-[#D9D9D9] pt-0 rounded-3xl p-2 md:p-0 md:bg-transparent"
+			className="w-fit text-center mt-2 ml-auto mr-auto relative flex flex-col bg-[#D9D9D9] pt-0 rounded-3xl p-2 md:p-0 md:bg-transparent"
 		>
 			<input
 				type="email"
@@ -44,7 +46,7 @@ export const Email = () => {
 				<button
 					disabled={isLoading}
 					type="submit"
-					className="bg-[#896FBC] disabled:bg-[#7953C5] h-12 transition w-full hover:bg-[#7953C5] font-semibold text-white px-4 py-2 rounded-full text-2xl"
+					className="bg-[#896FBC] disabled:bg-[#7953C5] h-12 transition w-full hover:bg-[#7953C5] font-semibold text-white px-4 py-2 rounded-full text-xl"
 				>
 					{isLoading ? (
 						<div className="flex justify-center items-center">
@@ -58,13 +60,18 @@ export const Email = () => {
 							</div>
 						</div>
 					) : (
-						"Sign me up!"
+						"Send me updates!"
 					)}
 				</button>
 			</div>
-			<div className="mt-2 text-black md:text-white">
-				Registration closes Friday, Dec 1, 2023 at 11:59 PM PST!
-			</div>
+			{noText ? (
+				""
+			) : (
+				<div className="mt-2 md:w-128 text-black md:text-white">
+					Registration for 2023 is closed but you can still join our email list
+					to get updates about future events!
+				</div>
+			)}
 		</form>
 	);
 };

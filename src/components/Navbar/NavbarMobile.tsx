@@ -95,10 +95,10 @@ export const NavbarMobile = () => {
 						Join the Discord
 					</a>
 					<Link
-						href="/register"
+						href="#email"
 						className="text-lg transition w-full flex justify-center items-center h-10 bg-[#896FBC] hover:bg-[#7953C5] text-white px-4 rounded-full"
 					>
-						Register Now!
+						Join Email List!
 					</Link>
 				</div>
 			</div>

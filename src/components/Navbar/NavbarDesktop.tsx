@@ -35,10 +35,10 @@ export const DesktopNav = () => {
 					</svg>
 				</a>
 				<Link
-					href="/register"
+					href="#email"
 					className="transition flex items-center h-10 bg-[#896FBC] text-sm hover:bg-[#7953C5] text-white px-4 rounded-full"
 				>
-					Register Now
+					Join Email List
 				</Link>
 			</div>
 		</>
