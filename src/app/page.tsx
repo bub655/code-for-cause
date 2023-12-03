@@ -7,7 +7,6 @@ import { Features } from "@/components/AttendeesLandingPage/Features";
 import { Schedule } from "@/components/AttendeesLandingPage/Schedule";
 import { Interest } from "@/components/AttendeesLandingPage/Interested";
 import { FrequentlyAskedQuestions } from "@/components/AttendeesLandingPage/FAQ";
-import { Metadata } from "next";
 import { useEffect } from "react";
 import { analytics } from "@/utils/firebase";
 
