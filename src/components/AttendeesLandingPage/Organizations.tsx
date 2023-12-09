@@ -2,6 +2,7 @@ import Image from "next/image";
 import boxmate from "./images/boxmate.png";
 import isoaccess from "./images/isoaccess.png";
 import interteach from "./images/interteach.png";
+import bisvdeca from "./images/bisvdeca.png";
 import Link from "next/link";
 
 export const Organizations = () => {
@@ -38,7 +39,12 @@ export const Organizations = () => {
 						alt="InterTeach logo"
 					/>
 				</Link>
-				<div className="text-black font-bold text-2xl">+ more to come!</div>
+				<Image
+					height={50}
+					src={bisvdeca}
+					placeholder="blur"
+					alt="Goodwill logo"
+				/>
 			</div>
 		</>
 	);
