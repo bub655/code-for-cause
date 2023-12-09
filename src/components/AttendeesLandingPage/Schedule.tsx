@@ -24,7 +24,7 @@ export const Schedule = () => {
 					time="10:15 am"
 					event="Workshop: Cross-Platform Apps with Flutter"
 				/>
-				<ScheduleItem time="12:30 pm" event="Lunch" dark />
+				<ScheduleItem time="1:00 pm" event="Lunch" dark />
 				<ScheduleItem time="6:00 pm" event="Dinner" />
 				<ScheduleItem time="7:30 pm" event="Judging Begins" dark />
 				<ScheduleItem time="9:00 pm" event="Awards Ceremony" />
