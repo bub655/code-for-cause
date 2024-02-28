@@ -3,7 +3,7 @@ import chipotlePic from "../images/chipotle.png";
 import pandaPic from "../images/panda.png";
 import paypalPic from "../images/paypal.png";
 import metaPic from "../images/meta.png";
-import billPic from "../images/bill.png";
+import berkeleyPic from "../../../../public/berkeley.png";
 
 function SVGIcon(logo: any) {
 	logo = logo.logo;
@@ -116,18 +116,19 @@ export const Feature = (props: featureProps) => {
 			<div className="ml-auto mr-auto w-fit text-center">{props.text}</div>
 			{props.food && (
 				<div className="flex space-x-2 items-center justify-center">
-					<Image
+					{/* <Image
 						src={chipotlePic}
 						alt="Chipotle logo"
 						height={66}
 						placeholder="blur"
-					/>
+					/> */}
 					<Image
 						src={pandaPic}
 						alt="Panda Express logo"
 						height={66}
 						placeholder="blur"
-					/>
+					/>{" "}
+					<div>+ more</div>
 				</div>
 			)}
 			{props.mentors && (
@@ -140,7 +141,7 @@ export const Feature = (props: featureProps) => {
 					/>
 					<Image src={metaPic} alt="Meta logo" height={60} placeholder="blur" />
 					<Image
-						src={billPic}
+						src={berkeleyPic}
 						alt="Bill.com logo"
 						height={60}
 						placeholder="blur"

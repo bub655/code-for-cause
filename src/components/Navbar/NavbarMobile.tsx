@@ -94,12 +94,13 @@ export const NavbarMobile = () => {
 					>
 						Join the Discord
 					</a>
-					<Link
-						href="#email"
+					<a
+						href="https://www.vikinghacks.com/register"
+						target="_blank"
 						className="text-lg transition w-full flex justify-center items-center h-10 bg-[#896FBC] hover:bg-[#7953C5] text-white px-4 rounded-full"
 					>
-						Join Email List!
-					</Link>
+						Register Now
+					</a>
 				</div>
 			</div>
 		</>

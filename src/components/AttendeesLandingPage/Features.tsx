@@ -11,8 +11,8 @@ export const Features = () => {
 			</div>
 			<div className="grid lg:grid-cols-2 gap-12 h-fit w-fit ml-auto mr-auto sm:grid-cols-1">
 				<Feature
-					title="$1000 Cash Prize"
-					text="Besides the grand prize, we’ll have cool tech prizes and internship opportunities for winners in each track!"
+					title="$1000+ in Prizes"
+					text="We'll have cool tech prizes and internship opportunities for winners in each track!"
 					logo={1}
 				/>
 				<Feature

@@ -34,12 +34,13 @@ export const DesktopNav = () => {
 						</g>
 					</svg>
 				</a>
-				<Link
-					href="#email"
+				<a
+					href="https://www.vikinghacks.com/register"
+					target="_blank"
 					className="transition flex items-center h-10 bg-[#896FBC] text-sm hover:bg-[#7953C5] text-white px-4 rounded-full"
 				>
-					Join Email List
-				</Link>
+					Register Now
+				</a>
 			</div>
 		</>
 	);

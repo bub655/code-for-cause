@@ -1,32 +1,45 @@
+import { FaArrowRight, FaCalendar, FaLocationDot } from "react-icons/fa6";
 import { Sponsors } from "./Sponsors";
-import { Email } from "./utils/EmailForm";
+import RegisterButton from "../RegisterButton";
 
 export const Hero = () => {
 	return (
 		<>
-			<div className="text-center p-4 md:p-8">
-				<div className="pb-4 font-black md:text-8xl text-6xl">
-					<span>Code for </span>
+			<div className="px-4 md:px-20 space-y-6 text-center">
+				<div className="font-black md:text-8xl text-6xl">
+					<span>Back and </span>
 					<span className="drop-shadow-[4px_6px_var(--tw-shadow-color)] shadow-[#896FBC]">
-						Cause
+						Better.
 					</span>
 				</div>
-				<div className="m-auto font-bold text-white text-3xl pb-4 md:w-1/2">
-					The first philanthropic hackathon for high-schoolers.
-				</div>
-				<Email />
 
-				<div className="mt-8 flex items-center md:flex-row flex-col w-full md:w-fit ml-auto mr-auto bg-[#D9D9D9] rounded-full p-2 md:px-6 md:p-4 text-black font-bold md:space-x-4 text-xl">
-					<a target="_blank" href="https://maps.app.goo.gl/Ep8qt6LtHjQcMKNW9">
-						691 S Milpitas Blvd.
+				<div className="m-auto font-bold text-white text-3xl max-w-lg">
+					Join us for the first{" "}
+					<a className="hover:underline" href="https://www.vikinghacks.com">
+						VikingHacks
+					</a>{" "}
+					x Code for Cause hackathon
+				</div>
+
+				<div className="m-auto flex items-center md:flex-row flex-col w-full md:w-fit font-bold space-x-8 text-xl">
+					<a
+						target="_blank"
+						className="flex space-x-2 items-center hover:underline"
+						href="https://maps.app.goo.gl/6Ypn1m3xj77Hdket9"
+					>
+						<FaLocationDot />
+						<span>Ohlone College, Fremont</span>
 					</a>
-					<span className="hidden md:inline text-2xl">|</span>
-					<span>December 9, 2023</span>
+
+					<div className="flex space-x-2 items-center">
+						<FaCalendar />
+						<span>April 13, 2024</span>
+					</div>
 				</div>
-				<div className="mt-8">
-					<Sponsors />
-				</div>
+
+				<RegisterButton />
 			</div>
+			{/* <Sponsors /> */}
 		</>
 	);
 };

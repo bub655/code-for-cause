@@ -9,6 +9,7 @@ import { Interest } from "@/components/AttendeesLandingPage/Interested";
 import { FrequentlyAskedQuestions } from "@/components/AttendeesLandingPage/FAQ";
 import { useEffect } from "react";
 import { analytics } from "@/utils/firebase";
+import RegisterButton from "@/components/RegisterButton";
 
 export default function Home() {
 	useEffect(() => {
@@ -16,14 +17,15 @@ export default function Home() {
 	}, []);
 
 	return (
-		<>
+		<div className="space-y-10 pt-20">
 			<Hero />
-			<Unique />
-			<Organizations />
+			{/* <Unique /> */}
+			{/* <Organizations /> */}
 			<Features />
-			<Schedule />
+			{/* <Schedule /> */}
 			<Interest />
+
 			<FrequentlyAskedQuestions />
-		</>
+		</div>
 	);
 }
