@@ -95,11 +95,11 @@ export const NavbarMobile = () => {
 						Join the Discord
 					</a>
 					<a
-						href="https://www.vikinghacks.com/register"
+						href="https://www.ohlonehacks.org/register"
 						target="_blank"
 						className="text-lg transition w-full flex justify-center items-center h-10 bg-[#896FBC] hover:bg-[#7953C5] text-white px-4 rounded-full"
 					>
-						Register Now
+						Register Now for Ohlone Hacks
 					</a>
 				</div>
 			</div>

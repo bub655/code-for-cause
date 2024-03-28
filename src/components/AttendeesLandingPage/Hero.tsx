@@ -33,7 +33,7 @@ export const Hero = () => {
 
 					<div className="flex space-x-2 items-center">
 						<FaCalendar />
-						<span>April 13, 2024</span>
+						<span>April 14, 2024</span>
 					</div>
 				</div>
 

@@ -1,12 +1,9 @@
 "use client";
-import { useState } from "react";
+
 import { useRouter } from "next/navigation";
+import { useState } from "react";
 
-type CollectEmailProps = {
-	noText?: boolean;
-};
-
-export const Email = ({ noText }: CollectEmailProps) => {
+const HackathonsEmailForm = () => {
 	const [isLoading, setIsLoading] = useState(false);
 	const router = useRouter();
 
@@ -35,19 +32,19 @@ export const Email = ({ noText }: CollectEmailProps) => {
 	return (
 		<form
 			onSubmit={saveEmail}
-			className="w-fit text-center mt-2 ml-auto mr-auto relative flex flex-col bg-[#D9D9D9] pt-0 rounded-3xl p-2 md:p-0 md:bg-transparent"
+			className="w-fit text-center mt-2 relative flex flex-col bg-gray-100 pt-0 rounded-3xl p-2 md:p-0 "
 		>
 			<input
 				type="email"
 				required
 				placeholder="What's your email?"
-				className="focus:outline-none h-14 w:full md:w-128 bg-[#D9D9D9] rounded-full px-2 md:px-6 text-black text-2xl font-bold "
+				className="focus:outline-none h-14 w:full md:w-96 bg-gray-200 rounded-full px-2 md:px-6 text-black text-lg font-bold "
 			/>
 			<div className="md:absolute top-1 right-1">
 				<button
 					disabled={isLoading}
 					type="submit"
-					className="bg-[#896FBC] disabled:bg-[#7953C5] h-12 transition w-full hover:bg-[#7953C5] font-semibold text-white px-4 py-2 rounded-full text-xl"
+					className="bg-[#896FBC] disabled:bg-[#7953C5] h-12 transition w-full hover:bg-[#7953C5] font-semibold text-white px-4 py-2 rounded-full text-lg"
 				>
 					{isLoading ? (
 						<div className="flex justify-center items-center">
@@ -61,18 +58,12 @@ export const Email = ({ noText }: CollectEmailProps) => {
 							</div>
 						</div>
 					) : (
-						"Send me updates!"
+						"Submit"
 					)}
 				</button>
 			</div>
-			{noText ? (
-				""
-			) : (
-				<div className="mt-2 md:w-128 text-black md:text-white">
-					Registration for 2023 is closed but you can still join our email list
-					to get updates about future events!
-				</div>
-			)}
 		</form>
 	);
 };
+
+export default HackathonsEmailForm;

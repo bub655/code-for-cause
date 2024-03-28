@@ -10,13 +10,15 @@ export const DesktopNav = () => {
 				</span>
 			</Link>
 			<div className="ml-8 flex space-x-8 items-center">
-				<Link href="/sponsors">Sponsor Us</Link>
+				{/* <Link href="/sponsors">Sponsor Us</Link>
 				<a
 					target="_blank"
 					href="https://hcb.hackclub.com/donations/start/codeforcause"
 				>
 					Donate now
-				</a>
+				</a> */}
+				<Link href="/hackathons">Hackathons</Link>
+				<Link href="/bounties">Bounties</Link>
 				<Link href="/contact">Contact Us</Link>
 				<a
 					href="https://discord.gg/SWKsWxXaSq"
@@ -35,11 +37,11 @@ export const DesktopNav = () => {
 					</svg>
 				</a>
 				<a
-					href="https://www.vikinghacks.com/register"
+					href="https://www.ohlonehacks.org/register"
 					target="_blank"
 					className="transition flex items-center h-10 bg-[#896FBC] text-sm hover:bg-[#7953C5] text-white px-4 rounded-full"
 				>
-					Register Now
+					Register for Ohlone Hacks
 				</a>
 			</div>
 		</>
