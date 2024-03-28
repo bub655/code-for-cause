@@ -75,19 +75,16 @@ export const NavbarMobile = () => {
 					</button>
 				</div>
 				<div className="flex flex-col space-y-2">
-					<Link href="/sponsors" className="text-lg">
-						Sponsor Us
+					<Link href="/hackathons" className="text-lg">
+						Hackathons
 					</Link>
-					<a
-						target="_blank"
-						className="text-lg"
-						href="https://hcb.hackclub.com/donations/start/codeforcause"
-					>
-						Donate now
-					</a>
-					<Link className="text-lg" href="/contact">
+					<Link href="/bounties" className="text-lg">
+						Bounties
+					</Link>
+					<Link href="/contact" className="text-lg">
 						Contact Us
 					</Link>
+
 					<a
 						href="https://discord.gg/SWKsWxXaSq"
 						className="text-lg transition w-full space-x-2 justify-center flex items-center h-10 bg-[#738adb] text-white px-4 rounded-full"

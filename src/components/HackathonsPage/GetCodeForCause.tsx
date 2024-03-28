@@ -3,7 +3,7 @@ import { FaBullhorn, FaDollarSign, FaHandshake, FaStar } from "react-icons/fa6";
 
 const GetCodeForCause = () => {
 	return (
-		<div className="space-y-4 px-20 pt-10">
+		<div className="space-y-4 md:px-20 px-4 pt-10">
 			<h2 className="text-4xl max-w-xl font-black">
 				Want Code for Cause at Your Hackathon?
 			</h2>
@@ -19,8 +19,8 @@ const GetCodeForCause = () => {
 				</Link>
 				.
 			</p>
-			<div className="flex space-x-4">
-				<div className="w-1/4 text-center flex flex-col items-center justify-center bg-gray-300 text-black p-4 rounded-xl space-y-2">
+			<div className="md:flex md:space-x-4 space-y-4 md:space-y-0">
+				<div className="md:w-1/4 text-center flex flex-col items-center justify-center bg-gray-300 text-black p-4 rounded-xl space-y-2">
 					<FaStar size={48} />
 
 					<h3 className="text-2xl">Increased Participation</h3>
@@ -31,7 +31,7 @@ const GetCodeForCause = () => {
 					</p>
 				</div>
 
-				<div className="w-1/4 text-center flex flex-col items-center justify-center bg-gray-300 text-black p-4 rounded-xl space-y-2">
+				<div className="md:w-1/4 text-center flex flex-col items-center justify-center bg-gray-300 text-black p-4 rounded-xl space-y-2">
 					<FaHandshake size={48} />
 
 					<h3 className="text-2xl">Community Collaboration</h3>
@@ -42,7 +42,7 @@ const GetCodeForCause = () => {
 					</p>
 				</div>
 
-				<div className="w-1/4 text-center flex flex-col items-center justify-center bg-gray-300 text-black p-4 rounded-xl space-y-2">
+				<div className="md:w-1/4 text-center flex flex-col items-center justify-center bg-gray-300 text-black p-4 rounded-xl space-y-2">
 					<FaDollarSign size={48} />
 
 					<h3 className="text-2xl">Appeal to Sponsors</h3>
@@ -50,7 +50,7 @@ const GetCodeForCause = () => {
 					<p>Sponsors love to support hackathons that give to community.</p>
 				</div>
 
-				<div className="w-1/4 text-center flex flex-col items-center justify-center bg-gray-300 text-black p-4 rounded-xl space-y-2">
+				<div className="md:w-1/4 text-center flex flex-col items-center justify-center bg-gray-300 text-black p-4 rounded-xl space-y-2">
 					<FaBullhorn size={48} />
 
 					<h3 className="text-2xl">Increased Promotion</h3>

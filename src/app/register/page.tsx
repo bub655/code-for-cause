@@ -6,7 +6,7 @@
 // import Link from "next/link";
 // import { Analytics, logEvent } from "firebase/analytics";
 // import { analytics } from "@/utils/firebase";
-import { Email } from "@/components/AttendeesLandingPage/utils/EmailForm";
+import { Email } from "@/components/HomePage/utils/EmailForm";
 
 const Register = () => {
 	// const searchParams = useSearchParams();

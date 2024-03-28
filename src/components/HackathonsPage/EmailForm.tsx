@@ -32,13 +32,13 @@ const HackathonsEmailForm = () => {
 	return (
 		<form
 			onSubmit={saveEmail}
-			className="w-fit text-center mt-2 relative flex flex-col bg-gray-100 pt-0 rounded-3xl p-2 md:p-0 "
+			className="md:w-fit w-full text-center mt-2 relative flex flex-col bg-gray-100 md:pt-0 space-y-2 rounded-3xl p-2 md:p-0"
 		>
 			<input
 				type="email"
 				required
 				placeholder="What's your email?"
-				className="focus:outline-none h-14 w:full md:w-96 bg-gray-200 rounded-full px-2 md:px-6 text-black text-lg font-bold "
+				className="focus:outline-none h-14 w:full md:w-96 w-full bg-gray-200 rounded-full px-2 pl-6 md:px-6 text-black text-lg font-bold "
 			/>
 			<div className="md:absolute top-1 right-1">
 				<button

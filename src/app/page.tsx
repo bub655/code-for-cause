@@ -1,11 +1,11 @@
 "use client";
 
-import { Hero } from "../components/AttendeesLandingPage/Hero";
-import { Features } from "@/components/AttendeesLandingPage/Features";
-import { Interest } from "@/components/AttendeesLandingPage/Interested";
-import { FrequentlyAskedQuestions } from "@/components/AttendeesLandingPage/FAQ";
+import { Hero } from "../components/HomePage/Hero";
 import { useEffect } from "react";
 import { analytics } from "@/utils/firebase";
+import WhatIs from "@/components/HomePage/WhatIs";
+import UpcomingHackathons from "@/components/HackathonsPage/UpcomingHackathons";
+import FrequentlyAskedQuestions from "@/components/HomePage/FAQ";
 
 export default function Home() {
 	useEffect(() => {
@@ -13,14 +13,10 @@ export default function Home() {
 	}, []);
 
 	return (
-		<div className="space-y-10 pt-20">
+		<div className="space-y-10 pt-10">
 			<Hero />
-			{/* <Unique /> */}
-			{/* <Organizations /> */}
-			<Features />
-			{/* <Schedule /> */}
-			<Interest />
-
+			<WhatIs />
+			<UpcomingHackathons />
 			<FrequentlyAskedQuestions />
 		</div>
 	);

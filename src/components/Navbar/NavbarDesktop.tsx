@@ -10,13 +10,6 @@ export const DesktopNav = () => {
 				</span>
 			</Link>
 			<div className="ml-8 flex space-x-8 items-center">
-				{/* <Link href="/sponsors">Sponsor Us</Link>
-				<a
-					target="_blank"
-					href="https://hcb.hackclub.com/donations/start/codeforcause"
-				>
-					Donate now
-				</a> */}
 				<Link href="/hackathons">Hackathons</Link>
 				<Link href="/bounties">Bounties</Link>
 				<Link href="/contact">Contact Us</Link>
